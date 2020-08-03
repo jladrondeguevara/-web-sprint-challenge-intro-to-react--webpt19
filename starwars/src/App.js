@@ -19,13 +19,13 @@ const App = () => {
     })
   }, [])
 
+
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
       {characters.map((char) => (
-        <Character props = {char} />
+        <Character key = {char.id} props = {char} />
       ))}
-      
     </div>
   );
 }

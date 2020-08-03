@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Character = (data) => {
+const Character = (character) => {
+    console.log(character.characters);
     return (
-        <div className = "charaacter-container">
-            <h1>Character Name</h1>
+        <div className = "character-container">
+            <h2></h2>
         </div>
     )
 

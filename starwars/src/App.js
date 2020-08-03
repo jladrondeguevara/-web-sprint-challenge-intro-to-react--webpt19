@@ -12,9 +12,10 @@ const App = () => {
   useEffect(() => {
     axios.get(`https://swapi.dev/api/people/`)
     .then(data => {
-      console.log(data);
+      console.log(data.data.results);
+      setCharacter(data.data.results)
     })
-  })
+  },[])
 
   return (
     <div className="App">

@@ -28,13 +28,13 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web. React JS helps create components and facilitates the use of these for a better design and less use of code. 
 
-1. Describe component state.
+1. Describe component state. A component state is a reference to the memory where certain data may be stored for rendering or other purposes. This state can be altered to better help the developer.
 
-1. Describe props.
+1. Describe props. Short for properties. Used as references to the data for other components to use.
 
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+1. What are side effects, and how do you sync effects in a React component to changes of certain state or props? Side effects are functions that affect anything within the scope of it. You can directly reference the set state to change the data.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
